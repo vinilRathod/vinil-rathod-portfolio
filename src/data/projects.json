@@ -10,7 +10,7 @@
       "AI Integration",
       "Microfrontend"
     ],
-    "image": "/src/assets/projects/AI.png"
+    "image": "/projects/AI.png"
   },
   {
     "number": "02",
@@ -21,7 +21,7 @@
       "JavaScript",
       "ExtJS"
     ],
-    "image": "/src/assets/projects/Migration.png"
+    "image": "/projects/Migration.png"
   },
   {
     "number": "03",
@@ -32,6 +32,6 @@
       "JavaScript",
       "UI Engineering"
     ],
-    "image": "/src/assets/projects/TaskGrid.png"
+    "image": "/projects/TaskGrid.png"
   }
 ]
