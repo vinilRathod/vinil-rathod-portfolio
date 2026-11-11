@@ -1,0 +1,94 @@
+.vr-contact {
+    background: var(--color-text);
+    color: var(--color-white);
+    padding: 120px var(--page-gutter);
+    text-align: center;
+}
+
+.vr-contact-content {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.vr-contact .vr-contact-eyebrow {
+    color: var(--color-secondary);;
+}
+
+.vr-contact h2 {
+    font-family: var(--font-heading);
+    font-size: 58px;
+    font-weight: 600;
+    letter-spacing: -2px;
+    line-height: 1.16;
+    margin: 24px 0;
+}
+
+.vr-contact h2 span {
+    display: inline-block;
+    color: var(--color-secondary);
+}
+
+.vr-contact-description {
+    max-width: 520px;
+    margin: 0 auto;
+    color: var(--color-description);
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.vr-contact-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 36px;
+    padding: 16px 28px;
+    background: var(--color-white);
+    color: var(--color-text);
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.vr-contact-button:hover {
+    background: var(--color-surface);
+    transform: translateY(-4px);
+}
+
+.vr-contact-button span {
+    font-size: 18px;
+    line-height: 1;
+}
+
+@media (max-width: 1024px) {
+    .vr-contact {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .vr-contact {
+        padding: 90px 24px;
+    }
+
+    .vr-contact h2 {
+        font-size: 40px;
+        letter-spacing: -1.5px;
+    }
+
+    .vr-contact-description {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480) {
+    .vr-contact {
+        padding: 72px 20px;
+    }
+
+    .vr-contact h2 {
+        font-size: 32px;
+    }
+}

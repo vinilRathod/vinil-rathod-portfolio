@@ -1,0 +1,143 @@
+.vr-experience {
+    max-width: var(--content-width);
+    margin: 0 auto;
+    padding: 120px var(--page-gutter);
+    border-top: 1px solid var(--color-border);
+}
+
+.vr-experience-heading {
+    margin-bottom: 64px;
+}
+
+.vr-experience-heading h2 {
+    font-family: var(--font-heading);
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -1.5px;
+    margin-top: 20px;
+}
+
+.vr-experience-content {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.vr-company-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 28px;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.vr-company-header h3 {
+    font-family: var(--font-heading);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.vr-company-header p {
+    color: var(--color-muted);
+    font-size: 14px;
+}
+
+.vr-company {
+    display: flex;
+    flex-direction: column;
+}
+
+.vr-experience-item {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 40px;
+    padding: 36px 0px;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.vr-experience-meta {
+    font-size: 14px;
+    /* padding-top: 6px; */
+    color: var(--color-muted);
+}
+
+.vr-experience-details h3 {
+    font-family: var(--font-heading);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.vr-experience-details > p {
+    color: var(--color-muted);
+    font-size: 14px;
+    line-height: 1.8;
+    max-width: 650px;
+}
+
+.vr-experience-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 20px;
+}
+
+.vr-experience-tags span {
+    padding: 6px 12px;
+    background: var(--color-surface);
+    color: var(--color-accent);
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+@media (max-width: 1024px) {
+    .vr-experience {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .vr-experience-item {
+        grid-template-columns: 180px 1fr;
+        gap: 28px;
+    }
+}
+
+@media (max-width: 768px) {
+    .vr-experience {
+        padding: 72px 24px;
+    }
+
+    .vr-experience-heading h2 {
+        font-size: 32px;
+    }
+
+    .vr-experience-item {
+        grid-template-columns: 1fr;
+        gap: 16px;
+        padding: 28px 0px;
+    }
+
+    .vr-experience-content {
+        gap: 36px;
+    }
+}
+
+@media (max-width: 480px) {
+    .vr-experience {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .vr-experience-heading h2 {
+        font-size: 28px;
+    }
+
+    .vr-company-header {
+        gap: 12px;
+    }
+    .vr-company-header > span {
+        font-size: 12px;
+        text-align: right;
+    }
+}

@@ -1,0 +1,46 @@
+
+[
+  {
+    "company": "Nimblework, inc.",
+    "duration": "July 2022 - Present",
+    "roles": [
+      {
+        "designation": "Senior Software Engineer",
+        "duration": "July 2026 - Present",
+        "description": "Developing enterprise project management workflows, migrating product experiences to React, and improving application performance and security.",
+        "technologies": [
+          "ReactJS",
+          "JavaScript",
+          "ExtJS",
+          "CSS",
+          "Jenkins"
+        ]
+      },
+      {
+        "designation": "Software Engineer",
+        "duration": "July 2024 - June 2026",
+        "description": "Built AI-powered React microfrontends, developed advanced task management features, implemented complex ExtJS grid interactions, and migrated legacy product components to ReactJS.",
+        "technologies": [
+          "ReactJS",
+          "JavaScript",
+          "ExtJS",
+          "HTML",
+          "CSS",
+          "Microfrontend Architecture"
+        ]
+      },
+      {
+        "designation": "Trainee Engineer",
+        "duration": "July 2022 - June 2024",
+        "description": "Developed core project management interfaces, enhanced enterprise product workflows, implemented integrations and onboarding features, and improved application performance.",
+        "technologies": [
+          "JavaScript",
+          "ExtJS",
+          "ReactJS",
+          "HTML",
+          "CSS"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+
+[
+  {
+    "number": "01",
+    "title": "AI-Powered Task Planning",
+    "description": "Developed AI-powered functionality to generate user story descriptions and task plans, with seamless integration into the existing ToDo workflow.",
+    "technologies": [
+      "ReactJS",
+      "JavaScript",
+      "AI Integration",
+      "Microfrontend"
+    ],
+    "image": "/src/assets/projects/AI.png"
+  },
+  {
+    "number": "02",
+    "title": "ExtJS to ReactJS Migration",
+    "description": "Migrated legacy ExtJS Execution Board List View functionality to ReactJS, modernizing existing product interfaces and converting legacy event handlers and interactions into React-based implementations.",
+    "technologies": [
+      "ReactJS",
+      "JavaScript",
+      "ExtJS"
+    ],
+    "image": "/src/assets/projects/Migration.png"
+  },
+  {
+    "number": "03",
+    "title": "Advanced Task Grid Engineering",
+    "description": "Implemented complex task-grid interactions, including bulk drag-and-drop, indentation, outdentation, live editing, autosave and Excel-like editing capabilities.",
+    "technologies": [
+      "ExtJS",
+      "JavaScript",
+      "UI Engineering"
+    ],
+    "image": "/src/assets/projects/TaskGrid.png"
+  }
+]

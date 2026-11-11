@@ -1,0 +1,95 @@
+.vr-expertise {
+    max-width: var(--content-width);
+    margin: 0 auto;
+    padding: 120px var(--page-gutter);
+    border-top: 1ps solid var(--color-border);
+}
+
+.vr-expertise .vr-expertise-heading {
+    margin-bottom: 56px;
+}
+
+.vr-expertise .vr-expertise-heading h2 {
+    font-family: var(--font-heading);
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -1.5px;
+    margin-top: 20px;
+}
+
+.vr-expertise .vr-expertise-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.vr-expertise .vr-expertise-grid .vr-expertise-card {
+    padding: 32px;
+    background: var(--color-white);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-card);
+    transition: border-color 0.3s ease, transform 0.3 ease;
+}
+
+.vr-expertise .vr-expertise-grid .vr-expertise-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--color-accent);
+}
+
+.vr-expertise .vr-expertise-grid .vr-expertise-card .vr-expertise-number {
+    display: block;
+    color: var(--color-accent);
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 28px;
+}
+
+.vr-expertise .vr-expertise-grid .vr-expertise-card h3 {
+    font-family: var(--font-heading);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.vr-expertise .vr-expertise-grid .vr-expertise-card p {
+    color: var(--color-muted);
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+@media (max-width: 1024px) {
+    .vr-expertise {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .vr-expertise {
+        padding: 72px 24px;
+    }
+
+    .vr-expertise .vr-expertise-heading h2 {
+        font-size: 32px;
+    }
+
+    .vr-expertise .vr-expertise-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .vr-expertise .vr-expertise-grid .vr-expertise-card {
+        padding: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .vr-expertise {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .vr-expertise .vr-expertise-heading h2 {
+        font-size: 28px;
+    }
+}
